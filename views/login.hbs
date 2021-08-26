@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <div class="head">
+        <div class="front">
+            <div>
+                <header>
+                    <div class="heading">
+                        <img src="https://static.frontendmasters.com/assets/fm/js/frontendmasters.e1e10b58c1.svg"
+                            width="250px" height="60px">
+                    </div>
+                    <div class="space"></div>
+
+                    <a href="joinnow.html" class="course commanclasshead" value="Hover the Mouse"
+                        onmouseover="this.style.color='white';return true"
+                        onmouseout="this.style.color='rgb(207, 200, 200)';return true;">Courses</a>
+
+                    <a href="joinnow.html" class="course commanclasshead" value="Hover the Mouse"
+                        onmouseover="this.style.color='white';return true"
+                        onmouseout="this.style.color='rgb(207, 200, 200)';return true;">Learn</a>
+
+                    <a href="joinnow.html" class="course commanclasshead" value="Hover the Mouse"
+                        onmouseover="this.style.color='white';return true"
+                        onmouseout="this.style.color='rgb(207, 200, 200)';return true;">Pricing</a>
+
+                    <a href="login.html" class="course commanclasshead specalkeylogin">Login</a>
+
+                    <div class="joinbox"><a href="joinnow.html" class="course commanclasshead" value="Hover the Mouse"
+                            onmouseover="this.style.color='white';return true"
+                            onmouseout="this.style.color='white';return true;">Join Now</a></div>
+                </header>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main style="background-color: #222222; height: 450px;">
+
+        <form action="/login" method="POST">
+
+        <div id="email" class="username comman"> Username or Email</div>
+        <input type="text" id="entermail" name="email" class="comman boxfir" placeholder=" Username or Email" />
+        <div class="password comman ">Password</div>
+        <input type="text" id="enterpassword" name="password" class="comman boxsec" placeholder=" Password" />
+        <p id="error"></p>
+        <div class="remember"><input id="checkbox" name="remember" type="checkbox">Remember me</div>
+
+        <div class="check">
+            <div type="submit" onclick="login()" class="loginback"><button class="login-button" value="Hover the Mouse"
+                    onmouseover="this.style.color='white';return true"
+                    onmouseout="this.style.color='rgb(207, 200, 200)';return true;">Log In</button>
+            </div>
+
+            <a href="www.google.com" class="forget1" onmouseover="this.style.color='red';return true"
+                onmouseout="this.style.color='rgb(238, 84, 84)';return true;">Forgot your password?
+        </div>
+</form>
+
+        </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div class="demo">
+            <div class="img"><img src="https://static.frontendmasters.com/assets/fm/js/frontendmasters.e1e10b58c1.svg"
+                    width="250px" height="60px"></div>
+            <div class="course c_course add">Course</div>
+            <div class="learn c_course">Learn</div>
+            <div class="teacher c_course">Teacher</div>
+            <div class="guides c_course">Guides</div>
+            <div class="prices c_course">Prices</div>
+            <div class="login c_course">Login</div>
+            <div class="join c_course">Join Now</div>
+            <div class="faq c_course">FAQ</div>
+        </div>
+
+        <div class="apple"><img
+                src="https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg"
+                width="150px" height="70px"><img
+                src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="180px"
+                height="70px"></div>
+
+        <div class="twitter">
+
+            <img src="https://image.flaticon.com/icons/png/128/733/733579.png" width="40px" height="40px">
+            <img src="https://image.flaticon.com/icons/png/128/174/174857.png" width="40px" height="40px"
+                class="facebookgap">
+            <img src="https://image.flaticon.com/icons/png/128/733/733547.png" width="40px" height="40px"
+                class="facebookgap">
+            <img src="https://image.flaticon.com/icons/png/128/1409/1409946.png" width="40px" height="40px"
+                class="facebookgap">
+        </div>
+
+
+        <div class="support"> support@frontendmasters.com</div>
+        <div class="email">Email : </div>
+        </br>
+        <div></div>
+        <div class="term">@2021 Frontend Master,Term of Service,Privacy Policy</div>
+        <div class="lastline">Frontent Master is proudly made in Minneapolis,MN</div>
+
+    </footer>
+</body>
+
+</html>
+<script src="login.js">
+
+</script>
