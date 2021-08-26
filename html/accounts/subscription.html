@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Accounts</title>
+
+    <link rel="stylesheet" href="accounts.css">
+</head>
+
+<body>
+
+    <h1>This place is for navBar</h1>
+
+
+    <div class="mainDiv">
+
+
+        <div class="myAccountHeaderDiv">
+            <h1>My Account</h1>
+
+            <div class="myAccountContainer flex no-link">
+                <!-- import-export -->
+                <div class="myAccountLeftMainDiv  ">
+
+                    <div id="accountPannel"><a href="./accounts.html">Account</a></div>
+                    <div id="subscriptionPannel" class="active"><a href="./subscription.html">Subscription</a></div>
+                    <div id="invoicesPannel"><a href="./payment.html">Payment</a></div>
+                    <div id="invoicesPannel"><a href="./invoices.html">Invoices</a></div>
+                    <div id="invoicesPannel"><a href="./workshops.html">Workshops</a></div>
+
+                </div>
+
+
+                <div class="myAccountRightContainer">
+                    <div class="myAccountRight">
+                        <span id="subscriptionPara">
+                            <p>Your subscription to Monthly is pending. Click to complete it with your credit card.</p>
+                        </span>
+
+                        <h2>Upgrade Subscription</h2>
+
+
+                        <!--  -->
+
+                        <div class="upgradeSubscriptionDiv">
+
+                            <div class="subscriptionSingleBox">
+
+                                <div class="lineBar"></div>
+
+                                <div class=""></div>
+
+
+                            </div><!-- subscriptionSingleBox -->
+
+                        </div><!-- upgradeSubscriptionDiv -->
+
+                        <!--  -->
+
+
+
+                        <div class="accountPaymentMethod">
+
+
+                            <form name="passwordChangeForm">
+
+                                <div>
+                                    <label for="paymentMethod">Choose Your Payment Method</label>
+
+                                </div>
+
+                                <div>
+                                    <select name="paymentMethod" id="paymentMethod" required="">
+
+                                        <option value="creditCard">Credit Card</option>
+                                        <option value="debitCard">Debit Card</option>
+                                        <option value="wallet">Wallet</option>
+                                    </select>
+                                </div>
+
+
+
+
+                                <div>
+                                    <button type="submit" id="selectPaymentMode">Upgrade</button>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
