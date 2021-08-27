@@ -34,6 +34,23 @@ app.get("/login", (req, res) => {
     res.render("login");
 })
 
+app.get("/courses", (req, res) => {
+    res.render("courses");
+})
+
+app.get("/popularCourses", (req, res) => {
+    res.render("popularCourses");
+})
+
+
+app.get("/courseInside", (req, res) => {
+    res.render("courseInside");
+})
+
+app.get("/content", (req, res) => {
+    res.render("content");
+})
+
 app.post("/register", async (req, res)=> {
 
     try{
@@ -59,9 +76,13 @@ app.post("/login", async (req, res)=>{
         const email = req.body.email;
         const password = req.body.password;
        const user = await User.findOne({emailtext: email});
-       if(user)
+       if(user.password == password)
        {
-           res.render('index')
+           res.render('courses')
+       }
+       else
+       {
+           alert("wrong credentials");
        }
     }
     catch(err){

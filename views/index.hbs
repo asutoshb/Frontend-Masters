@@ -1,17 +1,1236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Frontend-Masters</title>
+
+
+    <link rel="stylesheet" href="css/home.css">
+
+    </style>
 </head>
+
 <body>
-        <h1>Lets start</h1>
-        <button onclick="fun()">Register</button>
-        <button onclick="login()">login</button>
+    <div id="layout-before"></div>
+    <div class="outer-flex">
+        <div class="inner-flex">
+
+            <header class="header">
+                <div class="inner">
+                    <div class="wraps">
+                        <div class="logos"><a class="s-tr" href="home.html">FrontendMasters</a></div><label
+                            class="NavMobileHamburger" for="open-nav-main">Menu</label>
+                        <nav class="Nav NavMobile NavMain"><input class="toggle-target" id="open-nav-main"
+                                type="checkbox">
+                            <ul>
+                                <li class="items"><a href="#">Courses</a></li>
+                                <li class="items"><a href="#">Learn</a></li>
+                                <li class="items"><a href="#">Pricing</a></li>
+                                <li class="items"><a onclick="login()" id="login">Login</a></li>
+                                <li class="items"><a onclick="fun()" class="Button ButtonRed">Join Now</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><svg class="polygon" viewbox="0 0 100 10" preserveaspectratio="none">
+                    <defs>
+                        <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#c02d28"></stop>
+                            <stop offset="100%" stop-color="#e66225"></stop>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="0,2 0,0 100,0 100,10" fill="url(#linear)"></polygon>
+                </svg>
+            </header>
+
+            <div id="after-header"></div>
+            <main id="main-content" role="main">
+                <div class="livestream-cta"></div>
+                <section class="HomeHero">
+                    <div class="content">
+                        <div class="wraps s-vp-xl">
+                            <h1><strong>Advance Your Skills</strong> <span>with In-Depth, Modern</span> <span>Front-End
+                                    Engineering Courses</span></h1><a class="Button ButtonLarge ButtonRed">Browse Our
+                                Courses</a> <a class="Button ButtonLarge Buttoncolor" href="/learn/">View Learning
+                                Paths</a>
+                        </div>
+                    </div><video class="background" playsinline="" autoplay="" muted="" loop="">
+                        <source src="https://static.frontendmasters.com/assets/fm/med/home/hero.mp4" type="video/mp4">
+                    </video>
+                </section>
+
+
+
+
+
+
+                <section class="HomeLogos s-vp-lg"><svg style="height: 60px" class="polygon"
+                        xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
+                        <polygon points="0,8 0,10 100,10 100,3"></polygon>
+                    </svg>
+                    <div class="wraps"><a class="javascript s-tr">JavaScript</a> <a href="/learn/node-js/"
+                            class="nodejs s-tr">Node.js</a> <a href="/learn/react/" class="react s-tr">React</a> <a
+                            href="/learn/vue/" class="vuejs s-tr">Vue.js</a> <a href="/learn/angular/"
+                            class="angular s-tr">Angular</a> <a href="/learn/css/" class="css3 s-tr">CSS3</a> <a
+                            href="/learn/d3-js/" class="d3js s-tr">D3.js</a> <a href="/learn/webpack/"
+                            class="webpack s-tr">Webpack</a></div>
+                </section>
+
+
+
+
+                <!--USER REVIEW FROM TWITTER HANDLES START-->
+
+
+                <section class="HomeTweets s-vp-lg">
+                    <div class="wraps">
+                        <h2>What They're Saying About Us (<a href="#" target="_blank"
+                                rel="noopener">@FrontendMasters</a>)</h2>
+                        <div class="slider js_slider"><span class="js_prev prev"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="50" height="50" viewbox="0 0 501.5 501.5">
+                                    <g>
+                                        <path
+                                            d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z">
+                                        </path>
+                                    </g>
+                                </svg> </span>
+                            <span class="js_next next"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                    viewbox="0 0 501.5 501.5">
+                                    <g>
+                                        <path
+                                            d="M199.33 410.622l-55.77-55.508L247.425 250.75 143.56 146.384l55.77-55.507L358.44 250.75z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <div class="frame js_frame">
+                                <ul class="slides js_slides">
+
+
+
+
+                                    <li class="slide js_slides">
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="#"><img class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1111257701835788290/7U7PLuAK_reasonably_small.jpg"
+                                                    alt="Profile image for @KevinJPowell">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Kevin Powell</div>
+                                                    <div class="tweet-handle">@KevinJPowell</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="#" target="_blank"
+                                                    rel="nofollow noopener">@AlveeAkand</a> <a href="#" target="_blank"
+                                                    rel="nofollow noopener">@elyktrix</a> <a href="#" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> Yes! <a href=""
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> is
+                                                amazing. Super talented educators
+                                                and quality content.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/KevinJPowell/status/1315423148343529472">10:44pm
+                                                    · Oct 11, 2020</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/hashtagdad817/status/1315320682276958209"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1236097570637844486/YNWHjUtv_reasonably_small.jpg"
+                                                    alt="Profile image for @hashtagdad817">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">AJ Thompson</div>
+                                                    <div class="tweet-handle">@hashtagdad817</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/acandael"
+                                                    target="_blank" rel="nofollow noopener">@acandael</a> <a
+                                                    href="https://twitter.com/scotups" target="_blank"
+                                                    rel="nofollow noopener">@scotups</a> <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> always delivers great
+                                                courses. I’ve taken all of
+                                                <a href="https://twitter.com/scotups" target="_blank"
+                                                    rel="nofollow noopener">@scotups</a>. He teaches in a way that feels
+                                                like a conversation amongst friends.
+                                            </div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/hashtagdad817/status/1315320682276958209">3:57pm
+                                                    · Oct 11, 2020</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/Dave_Coding/status/1313215832999292930"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1057964722585305088/jZJUDPhj_reasonably_small.jpg"
+                                                    alt="Profile image for @Dave_Coding">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Dave Halewood</div>
+                                                    <div class="tweet-handle">@Dave_Coding</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/kieranmv95"
+                                                    target="_blank" rel="nofollow noopener">@kieranmv95</a> <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> Yes definitely, I’ve
+                                                had
+                                                membership for a couple of years, really good content given by top
+                                                instructors.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/Dave_Coding/status/1313215832999292930">8:33pm
+                                                    · Oct 5, 2020</a></div>
+                                        </div>
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/andrewtpoe/status/1318927619107192835"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/599651293423128578/-7h5hALt_reasonably_small.png"
+                                                    alt="Profile image for @andrewtpoe">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Andrew Poe</div>
+                                                    <div class="tweet-handle">@andrewtpoe</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> is
+                                                dollar for dollar the best money I've spent on continued education as a
+                                                developer. So much A+ content.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/andrewtpoe/status/1318927619107192835">2:50pm
+                                                    · Oct 21, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/purpledoll001/status/1301275791897120770"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1216765400534409216/iKnNkFof_reasonably_small.jpg"
+                                                    alt="Profile image for @purpledoll001">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">PurpleDoll</div>
+                                                    <div class="tweet-handle">@purpledoll001</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">What an incredible XSTATE course you have on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> <a
+                                                    href="https://twitter.com/DavidKPiano" target="_blank"
+                                                    rel="nofollow noopener">@DavidKPiano</a>.
+                                                Amazing tool and amazing way to reach our brains :D</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/purpledoll001/status/1301275791897120770">9:48pm
+                                                    · Sep 2, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/sarah_edo/status/1311729376669519872"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1281071936605323266/wc1KRZLK_reasonably_small.jpg"
+                                                    alt="Profile image for @sarah_edo">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Sarah Drasner</div>
+                                                    <div class="tweet-handle">@sarah_edo</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I've really been enjoying <a
+                                                    href="https://twitter.com/scotups" target="_blank"
+                                                    rel="nofollow noopener">@scotups</a> courses, he's got everything
+                                                from Next.js to GraphQL, to API design. He's a great instructor, does an
+                                                amazing job walking through
+                                                things and speaking to community and preferences too, hard to do! <a
+                                                    href="https://t.co/KaJnQw3HFo" target="_blank"
+                                                    rel="nofollow noopener">https://t.co/KaJnQw3HFo</a></div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/sarah_edo/status/1311729376669519872">6:07pm
+                                                    · Oct 1, 2020</a></div>
+                                        </div>
+                                    </li>
+
+
+
+
+
+                                    <li class="slide js_slide">
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/gusanchedev/status/1299766626951274496"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1260995399088824328/Z8L5nVjn_reasonably_small.jpg"
+                                                    alt="Profile image for @gusanchedev">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Gustavo Sanchez</div>
+                                                    <div class="tweet-handle">@gusanchedev</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I just completed "JavaScript: The Hard Parts, v2" by
+                                                <a href="https://twitter.com/willsentance" target="_blank"
+                                                    rel="nofollow noopener">@willsentance</a> on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>!
+                                                <a href="https://t.co/fB36c8Ohiv" target="_blank"
+                                                    rel="nofollow noopener">https://t.co/fB36c8Ohiv</a> No better
+                                                resource for full understanding Closures, asynchronous JS and classes
+                                                and prototypes. Thanks <a href="https://twitter.com/willsentance"
+                                                    target="_blank" rel="nofollow noopener">@willsentance</a>
+                                            </div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/gusanchedev/status/1299766626951274496">5:51pm
+                                                    · Aug 29, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/BergFulton/status/1299040002899406848"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1395830541409206277/DNlCTovQ_reasonably_small.jpg"
+                                                    alt="Profile image for @BergFulton">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Tracey “Spike Proteins” Berg-Fulton</div>
+                                                    <div class="tweet-handle">@BergFulton</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">OMG <a href="https://twitter.com/sarah_edo"
+                                                    target="_blank" rel="nofollow noopener">@sarah_edo</a> 's Intro to
+                                                Vue course on <a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> is *so
+                                                good*. I've made a few attempts to learn but this is the first time the
+                                                lightbulb has fully come on. <a href="https://t.co/Nwp7QzbyqW"
+                                                    target="_blank" rel="nofollow noopener">https://t.co/Nwp7QzbyqW</a>
+                                            </div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/BergFulton/status/1299040002899406848">5:44pm
+                                                    · Aug 27, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/jsilvax/status/1299178179064549376"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1348388087127101440/BRmGhQMk_reasonably_small.jpg"
+                                                    alt="Profile image for @jsilvax">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">J.</div>
+                                                    <div class="tweet-handle">@jsilvax</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I’ve been using <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> for years now. It’s
+                                                crazy seeing it grow over the years and how there’s just so much great
+                                                content to learn from. I
+                                                feel like every company should have a subscription for their devs on
+                                                there. The best bang for your buck.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/jsilvax/status/1299178179064549376">2:53am
+                                                    · Aug 28, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/meganesulli/status/1298398676524531713"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1298757926790680576/bI2v6ehX_reasonably_small.jpg"
+                                                    alt="Profile image for @meganesulli">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Megan Sullivan</div>
+                                                    <div class="tweet-handle">@meganesulli</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Just finished "Accessibility in JavaScript
+                                                Applications" by <a href="https://twitter.com/marcysutton"
+                                                    target="_blank" rel="nofollow noopener">@marcysutton</a> on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> 🎉 10/10, would
+                                                recommend! Good pace, great explanations, lots of code examples. Now I'm
+                                                excited to make some #a11y improvements to my own projects! 🧠⚙️ <a
+                                                    href="https://t.co/gvliKoyehW" target="_blank"
+                                                    rel="nofollow noopener">https://t.co/gvliKoyehW</a></div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/meganesulli/status/1298398676524531713">11:15pm
+                                                    · Aug 25, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/AnthonyHexium/status/1296516367601078272"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1388480669903466496/qBizVmo3_reasonably_small.jpg"
+                                                    alt="Profile image for @AnthonyHexium">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Anthony R. 🇫🇷🚀💻</div>
+                                                    <div class="tweet-handle">@AnthonyHexium</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/catalinmpit"
+                                                    target="_blank" rel="nofollow noopener">@catalinmpit</a> <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> This is the best
+                                                investment I
+                                                made in my career. I mean, by faaaaaaaar.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/AnthonyHexium/status/1296516367601078272">6:36pm
+                                                    · Aug 20, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/JeremyStuBarnes/status/1295050766747500545"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1204835226016346112/aXwPlrg4_reasonably_small.jpg"
+                                                    alt="Profile image for @JeremyStuBarnes">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Jeremy Stuart Barnes</div>
+                                                    <div class="tweet-handle">@JeremyStuBarnes</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I'm finishing up <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> course "Full Stack for
+                                                Front-End Engineers, v2" and it is one of the most enlightening courses
+                                                I've taken on how
+                                                the web works and learning about all of the intimidating ideas around
+                                                servers, packets, proxies, etc. Highly recommend!</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/JeremyStuBarnes/status/1295050766747500545">5:32pm
+                                                    · Aug 16, 2020</a></div>
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="slide js_slide">
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/marcomonsanto2/status/1289559118043258880"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1292197630915862529/sf_p2Z8v_reasonably_small.jpg"
+                                                    alt="Profile image for @marcomonsanto2">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Marco Monsanto</div>
+                                                    <div class="tweet-handle">@marcomonsanto2</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Shout-out to <a href="https://twitter.com/JemYoung"
+                                                    target="_blank" rel="nofollow noopener">@JemYoung</a> and <a
+                                                    href="https://twitter.com/willsentance" target="_blank"
+                                                    rel="nofollow noopener">@willsentance</a> for their amazing courses
+                                                in
+                                                <a href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>!! Not only the content
+                                                is amazing but they are also incredibly easy to watch and stay engaged.
+                                            </div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/marcomonsanto2/status/1289559118043258880">1:50pm
+                                                    · Aug 1, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/sandeepranjan_/status/1255281508568518667"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/871324934747955202/ZkbOVm6L_reasonably_small.jpg"
+                                                    alt="Profile image for @sandeepranjan_">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Sandeep Ranjan</div>
+                                                    <div class="tweet-handle">@sandeepranjan_</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Thank you <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> &amp;amp; <a
+                                                    href="https://twitter.com/stevekinney" target="_blank"
+                                                    rel="nofollow noopener">@stevekinney</a> for this awesome
+                                                course State Management with Redux. Finally got confident with Redux.
+                                            </div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/sandeepranjan_/status/1255281508568518667">11:43pm
+                                                    · Apr 28, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/kevintechgarcia/status/1286935908751613952"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1243303350042415104/yrucLbdT_reasonably_small.jpg"
+                                                    alt="Profile image for @kevintechgarcia">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Kevin</div>
+                                                    <div class="tweet-handle">@kevintechgarcia</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Im in love with Frontend Masters and <a
+                                                    href="https://twitter.com/holtbt" target="_blank"
+                                                    rel="nofollow noopener">@holtbt</a>!! Just working my way through
+                                                the React lessons and I just love the way <a
+                                                    href="https://twitter.com/holtbt" target="_blank"
+                                                    rel="nofollow noopener">@holtbt</a> explains the concepts and
+                                                configs he runs. Awesome job!! #reactjs</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/kevintechgarcia/status/1286935908751613952">8:06am
+                                                    · Jul 25, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/JossWritesCode/status/1285966679164493825"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/3186893733/e380c06fba1c4e2ba4538d77ccb6ad8d_reasonably_small.jpeg"
+                                                    alt="Profile image for @JossWritesCode">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Joss Stancek</div>
+                                                    <div class="tweet-handle">@JossWritesCode</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Watching JavaScript: The Hard Parts, v2 with <a
+                                                    href="https://twitter.com/willsentance" target="_blank"
+                                                    rel="nofollow noopener">@willsentance</a> on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>.
+                                                He is an amazing teacher. I now understand what's happening on every
+                                                line of a JS promise. Feels so good!</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/JossWritesCode/status/1285966679164493825">3:55pm
+                                                    · Jul 22, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/papistan1/status/1284693817329737728"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1139758277699313664/7xmfaORG_reasonably_small.jpg"
+                                                    alt="Profile image for @papistan1">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Jay Papisan</div>
+                                                    <div class="tweet-handle">@papistan1</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Building out our <a
+                                                    href="https://twitter.com/storybookjs" target="_blank"
+                                                    rel="nofollow noopener">@storybookjs</a> + Design System for work
+                                                with a little help from <a href="https://twitter.com/EmmaBostian"
+                                                    target="_blank" rel="nofollow noopener">@EmmaBostian</a> 's <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> DS &amp;amp; React
+                                                course - super concise and helpful to get up and running fast🔥</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/papistan1/status/1284693817329737728">3:37am
+                                                    · Jul 19, 2020</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/billyhunt/status/1282683519416840192"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1655720266/headshot-small_reasonably_small.jpg"
+                                                    alt="Profile image for @billyhunt">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">billyhunt</div>
+                                                    <div class="tweet-handle">@billyhunt</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I really enjoyed watching <a
+                                                    href="https://twitter.com/scotups" target="_blank"
+                                                    rel="nofollow noopener">@scotups</a>'s Client-Side GraphQL in React
+                                                class on <a href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> this weekend. He is a
+                                                good teacher.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/billyhunt/status/1282683519416840192">2:29pm
+                                                    · Jul 13, 2020</a></div>
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="slide js_slide">
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/Melvin_manni/status/1279338229607682049"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1367529785224794120/lxHxRj6f_reasonably_small.jpg"
+                                                    alt="Profile image for @Melvin_manni">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Melvin</div>
+                                                    <div class="tweet-handle">@Melvin_manni</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/holtbt" target="_blank"
+                                                    rel="nofollow noopener">@holtbt</a> React course on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> provided more insight
+                                                and helped
+                                                me appreciate React more. I already know some of the things being taught
+                                                but i had no problem re-learning it. So far that is the best React
+                                                course I've come across. 💯</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/Melvin_manni/status/1279338229607682049">8:56am
+                                                    · Jul 4, 2020</a></div>
+                                        </div>
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/Caleb__Lovell/status/1276573571146375168"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1119737710057385984/tDO-nNID_reasonably_small.png"
+                                                    alt="Profile image for @Caleb__Lovell">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Caleb Lovell</div>
+                                                    <div class="tweet-handle">@Caleb__Lovell</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/holtbt" target="_blank"
+                                                    rel="nofollow noopener">@holtbt</a> Hey Brian, many thanks for your
+                                                course on containers and Docker on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>!
+                                                SO glad to finally grasp how they work. I've lost many hours to failing
+                                                with Docker because I didn't understand the internals. No more! Looking
+                                                forward to Intro to Linux. Thanks!!</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/Caleb__Lovell/status/1276573571146375168">5:50pm
+                                                    · Jun 26, 2020</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/jimmyaldape/status/1270474869084262401"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1415002602761117700/_cei2Qp8_reasonably_small.jpg"
+                                                    alt="Profile image for @jimmyaldape">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Jimmy Aldape</div>
+                                                    <div class="tweet-handle">@jimmyaldape</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> courses
+                                                are already paying off. Can’t stop. Won’t stop.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/jimmyaldape/status/1270474869084262401">9:56pm
+                                                    · Jun 9, 2020</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/fejes713/status/1114858158936207360"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1176389111634112512/70t8NtS3_reasonably_small.jpg"
+                                                    alt="Profile image for @fejes713">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Stefan Fejes</div>
+                                                    <div class="tweet-handle">@fejes713</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> is like
+                                                a fully fledged University at this point. There're many courses to chose
+                                                from industry leading professionals. Having the ability
+                                                to learn what you want when you want it is phenomenal.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/fejes713/status/1114858158936207360">11:51am
+                                                    · Apr 7, 2019</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/sammyeast/status/1113574680529473536"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1197971799251664897/-3c53xLD_reasonably_small.jpg"
+                                                    alt="Profile image for @sammyeast">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Sam Ratemo</div>
+                                                    <div class="tweet-handle">@sammyeast</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/scotups"
+                                                    target="_blank" rel="nofollow noopener">@scotups</a> following your
+                                                node.js v3 on frontend masters, loving it. its straight 🔥🔥</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/sammyeast/status/1113574680529473536">10:51pm
+                                                    · Apr 3, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/OliviaOddo/status/1052993864938606592"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/950536864787656704/Kd3wLQJx_reasonably_small.jpg"
+                                                    alt="Profile image for @OliviaOddo">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Olivia Oddo</div>
+                                                    <div class="tweet-handle">@OliviaOddo</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Thank you <a href="https://twitter.com/TheLarkInn"
+                                                    target="_blank" rel="nofollow noopener">@TheLarkInn</a> and <a
+                                                    href="https://twitter.com/stevekinney" target="_blank"
+                                                    rel="nofollow noopener">@stevekinney</a> for your <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> courses! I don’t think
+                                                I would have landed my new job as a build infrastructure/web performance
+                                                engineer without y’all 😍</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/OliviaOddo/status/1052993864938606592">6:44pm
+                                                    · Oct 18, 2018</a></div>
+                                        </div>
+                                    </li>
+
+
+
+
+
+                                    <li class="slide js_slide">
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/nhuphan0404/status/1101324588661694465"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1251337586661974016/eheDTCuo_reasonably_small.jpg"
+                                                    alt="Profile image for @nhuphan0404">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Nhu Phan 👩🏻‍💻🧘🏻‍♀️</div>
+                                                    <div class="tweet-handle">@nhuphan0404</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I have recently spent most of my time on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>, 👩🏻‍💻 with the
+                                                beginning path🤓 , I tend to understand things clearly rather than doing
+                                                without understanding it. Can't recommend FM enough, its content is
+                                                amazing, feel like it is tailor-made for me 🤪🤓.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/nhuphan0404/status/1101324588661694465">3:33am
+                                                    · Mar 1, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/RickyGarciaDev/status/1089228436877393921"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1261295422061940736/zo-7G1lq_reasonably_small.jpg"
+                                                    alt="Profile image for @RickyGarciaDev">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Ricky Garcia</div>
+                                                    <div class="tweet-handle">@RickyGarciaDev</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I loved, LOVED, Javascript the Hardparts taught by
+                                                <a href="https://twitter.com/willsentance" target="_blank"
+                                                    rel="nofollow noopener">@willsentance</a> on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>.
+                                                What an incredible deep dive. #FrontEnd #webdevelopment</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/RickyGarciaDev/status/1089228436877393921">6:27pm
+                                                    · Jan 26, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/KellyIsWorking/status/1113491672334094341"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/935215363792560128/MY76hbgO_reasonably_small.jpg"
+                                                    alt="Profile image for @KellyIsWorking">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Kelly Watson</div>
+                                                    <div class="tweet-handle">@KellyIsWorking</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/ArlanWasHere"
+                                                    target="_blank" rel="nofollow noopener">@ArlanWasHere</a> <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> - it’s really worth the
+                                                subscription.
+                                                The tracks are fantastic. I wish I would have started there instead of
+                                                cobbling together online places to learn on my own.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/KellyIsWorking/status/1113491672334094341">5:21pm
+                                                    · Apr 3, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/EmmaBostian/status/1113156968003366913"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1400161856329822208/GrSz46jH_reasonably_small.jpg"
+                                                    alt="Profile image for @EmmaBostian">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Emma Bostian 🐞</div>
+                                                    <div class="tweet-handle">@EmmaBostian</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">The last two days I've been binge consuming all of
+                                                <a href="https://twitter.com/holtbt" target="_blank"
+                                                    rel="nofollow noopener">@holtbt</a> 's content on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> and <a
+                                                    href="https://twitter.com/RealTalkJS" target="_blank"
+                                                    rel="nofollow noopener">@RealTalkJS</a>. If you need to learn React,
+                                                he's one of the teachers I highly recommend checking out.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/EmmaBostian/status/1113156968003366913">7:11pm
+                                                    · Apr 2, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/nirgal_js/status/1111522093689126912"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1111520172962209792/ZZ05C1MI_reasonably_small.png"
+                                                    alt="Profile image for @nirgal_js">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Nir</div>
+                                                    <div class="tweet-handle">@nirgal_js</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/scotups"
+                                                    target="_blank" rel="nofollow noopener">@scotups</a> Thank you so
+                                                much for your amazing GraphQL course on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> , I learned a ton from
+                                                it and was able to create my own GraphQL project :)</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/nirgal_js/status/1111522093689126912">6:54am
+                                                    · Mar 29, 2019</a></div>
+                                        </div>
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/abysswalkintall/status/1110618095226376192"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1266936945185341446/qWGzRY3I_reasonably_small.jpg"
+                                                    alt="Profile image for @abysswalkintall">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">The Windhand That Feeds You</div>
+                                                    <div class="tweet-handle">@abysswalkintall</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Latest <a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> course
+                                                that I'm absolutely loving: <a href="https://twitter.com/JemYoung"
+                                                    target="_blank" rel="nofollow noopener">@JemYoung</a>'s
+                                                Full Stack For Front-End Developers. This workshop is so much more
+                                                succinct, interesting, useful, and FUN than the Windows/Linux OS course
+                                                that I took as a #webdev major.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/abysswalkintall/status/1110618095226376192">7:02pm
+                                                    · Mar 26, 2019</a></div>
+                                        </div>
+                                    </li>
+
+
+
+
+
+
+                                    <li class="slide js_slide">
+
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/frontstuff_io/status/1111553840170573824"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/977873484759158784/mOItIR7M_reasonably_small.jpg"
+                                                    alt="Profile image for @frontstuff_io">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Sarah Dayan</div>
+                                                    <div class="tweet-handle">@frontstuff_io</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I’m helping out the <a
+                                                    href="https://twitter.com/algolia" target="_blank"
+                                                    rel="nofollow noopener">@algolia</a> API clients team on their
+                                                journey to learn JavaScript and I can confirm 100% that <a
+                                                    href="https://twitter.com/getify" target="_blank"
+                                                    rel="nofollow noopener">@getify</a> is the best JavaScript
+                                                instructor out there, hands down. From <a
+                                                    href="https://twitter.com/YDKJS" target="_blank"
+                                                    rel="nofollow noopener">@YDKJS</a> to the courses on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>, nobody goes deeper
+                                                than him into how things work.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/frontstuff_io/status/1111553840170573824">9:01am
+                                                    · Mar 29, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/brandonleichty/status/1104420582588850176"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1216060474967711746/USR24qdb_reasonably_small.jpg"
+                                                    alt="Profile image for @brandonleichty">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Brandon Leichty</div>
+                                                    <div class="tweet-handle">@brandonleichty</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Watching <a href="https://twitter.com/getify"
+                                                    target="_blank" rel="nofollow noopener">@getify</a> live on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>. Kyle is the 🐐!</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/brandonleichty/status/1104420582588850176">4:36pm
+                                                    · Mar 9, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/TravezRipley/status/1107871487044706305"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/682478393405865985/kdIO7bs6_reasonably_small.jpg"
+                                                    alt="Profile image for @TravezRipley">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">TRVZ RPLY</div>
+                                                    <div class="tweet-handle">@TravezRipley</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/scotups"
+                                                    target="_blank" rel="nofollow noopener">@scotups</a> is the man, I
+                                                just started this course by him on <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> ! #apidesign in
+                                                #nodejs! I’ve learned so much in such a short amount of time! I love you
+                                                guys!!!! <a href="https://t.co/FEON0Mvltu" target="_blank"
+                                                    rel="nofollow noopener">https://t.co/FEON0Mvltu</a></div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/TravezRipley/status/1107871487044706305">5:08am
+                                                    · Mar 19, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/chaddattilio/status/1107662284724363264"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1189723147693629440/e4hvMwKd_reasonably_small.jpg"
+                                                    alt="Profile image for @chaddattilio">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">chaddattilio</div>
+                                                    <div class="tweet-handle">@chaddattilio</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">Never fully understood recursion until watching <a
+                                                    href="https://twitter.com/BiancaGando" target="_blank"
+                                                    rel="nofollow noopener">@BiancaGando</a> course on data structures
+                                                &amp;amp; algorithms on <a href="https://twitter.com/FrontendMasters"
+                                                    target="_blank" rel="nofollow noopener">@FrontendMasters</a> . Great
+                                                stuff.</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/chaddattilio/status/1107662284724363264">3:17pm
+                                                    · Mar 18, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/SwiftySanders/status/1105884992075239424"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1399921942094925830/b1bNZoa7_reasonably_small.jpg"
+                                                    alt="Profile image for @SwiftySanders">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Chris Sanders aka Resting Smiley Face 😁
+                                                    </div>
+                                                    <div class="tweet-handle">@SwiftySanders</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body"><a href="https://twitter.com/willsentance"
+                                                    target="_blank" rel="nofollow noopener">@willsentance</a> Your <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a> JavaScript Hard Parts
+                                                videos are a work of art. Congratulations! They really are fantastic!!!
+                                                😍🥳🎊🍾🎉 👍🏾</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/SwiftySanders/status/1105884992075239424">5:35pm
+                                                    · Mar 13, 2019</a></div>
+                                        </div>
+
+
+
+
+                                        <div class="tweet"><a class="tweet-top" rel="nofollow noopener" target="_blank"
+                                                href="https://twitter.com/kendaganio/status/1105864828445310978"><img
+                                                    class="lazyload tweet-image"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                    data-src="https://pbs.twimg.com/profile_images/1234754801675587584/zToTvz9i_reasonably_small.jpg"
+                                                    alt="Profile image for @kendaganio">
+                                                <div class="tweet-top-text">
+                                                    <div class="tweet-name">Ken-Lauren Daganio</div>
+                                                    <div class="tweet-handle">@kendaganio</div>
+                                                </div>
+                                            </a>
+                                            <div class="tweet-body">I'm thoroughly enjoying 'Design for Developers' by
+                                                <a href="https://twitter.com/sarah_edo" target="_blank"
+                                                    rel="nofollow noopener">@sarah_edo</a> in <a
+                                                    href="https://twitter.com/FrontendMasters" target="_blank"
+                                                    rel="nofollow noopener">@FrontendMasters</a>.
+                                                I am hyped to break the grid. Would recommend this to dev friends!</div>
+                                            <div class="tweet-bottom"><a class="tweet-timestamp"
+                                                    rel="nofollow noreferrer" target="_blank"
+                                                    href="https://twitter.com/kendaganio/status/1105864828445310978">4:14pm
+                                                    · Mar 13, 2019</a></div>
+                                        </div>
+
+
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="tweets">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--TWITTER REVIEWS FROM USER ENDS HERE-->
+
+                <!--Join now section below twitter reviews Starts-->
+                <section class=" s-vp-xl lazyload" id="joinimg">
+                    <div class="wraps s-wrap-thin">
+                        <h1 id="h1join"><span>Join Now and Learn Straight from the Experts Who Shape the</span> <span
+                                style="text-align: center;"> Modern Web</span></h1>
+
+                        <button onclick="register()" id="btnjoin"><a>Join Now</a></button>
+
+                    </div>
+                </section>
+
+                <!--Join now section below twitter reviews ENDS-->
+
+
+
+
+
+
+                <!--BOOTCAMPS SECTION STARTS-->
+                <section class="HomeAd s-vp-xl lazyload">
+                    <div class="wraps"><img class="lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                            data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PVy3dWKS2jldluvtKi4QKMWgfUjv4PdOkA&usqp=CAU"
+                            alt="Frontend Masters Bootcamp">
+
+                        <p>Looking to take your first steps in Web Development?<br>Try the free Frontend Masters
+                            Bootcamp!</p>
+                        <p><a href="#">More Info ></a></p>
+                    </div>
+                </section>
+
+                <!--BOOTCAMPS SECTION STARTS ENDS-->
+
+
+            </main>
+        </div>
+        <footer role="contentinfo" class="FooterMain">
+            <div class="wraps">
+                <div class="row">
+                    <div class="logos"><a class="s-tr" href="/">FrontendMasters</a></div><label
+                        class="NavMobileHamburger" for="open-nav-footer">Menu</label>
+                    <nav class="Nav NavMobile NavFooter"><input class="toggle-target" id="open-nav-footer"
+                            type="checkbox">
+                        <ul>
+                            <li class="items"><a href="#">Courses</a></li>
+                            <li class="items"><a href="#">Learn</a></li>
+                            <li class="items"><a href="#">Teachers</a></li>
+                            <li class="items"><a href="#">Guides</a></li>
+                            <li class="items"><a href="#">Pricing</a></li>
+                            <li class="items"><a onclick="login()">Login</a></li>
+                            <li class="items"><a onclick="signup()">Join Now</a></li>
+                            <li class="items"><a href="#">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="native-app-links"><a id="iOSLinkFooter" class="AppleApp" target="_blank"
+                            rel="noopener"><img class="lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                data-src="https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg"
+                                alt="Frontend Masters App on the Apple App Store" height="45"> </a>
+                        <a id="AndroidLinkFooter" class="AndroidApp" target="_blank" rel="noopener"><img
+                                class="lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                data-src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+                                alt="Frontend Masters App on Google Play" height="65"></a>
+                    </div>
+
+
+                    <div class="copyright">© 2021 Frontend Masters &middot; <a rel="nofollow noopener"
+                            href="https://static.frontendmasters.com/assets/legal/MasterServicesAgreement.pdf">Terms of
+                            Service</a> &middot; <a rel="nofollow noopener"
+                            href="https://static.frontendmasters.com/assets/legal/PrivacyPolicy.pdf">Privacy Policy</a>
+                    </div>
+                    <div>Frontend Masters is proudly made in Minneapolis, MN</div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
 </body>
+
 </html>
+
+
+
+
+
+
+
+<script src="Javascript/script.js"></script>
+
+<script defer="" src="https://static.frontendmasters.com/assets/fm/js/core.924099a49e9cbddb1487.js"></script>
+<script defer="" src="https://static.frontendmasters.com/assets/fm/js/home.924099a49e9cbddb1487.js"></script>
+
 <script>
     function fun() {
         window.location.href = "register"

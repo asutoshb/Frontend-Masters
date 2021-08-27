@@ -263,7 +263,7 @@
 
 
                         <div class='terms'>
-                            <button type="submit" value="register" class="submit Button ButtonRed ButtonLarge"> Start Learning </button>
+                            <button type="submit" value="register" class="submit Button ButtonRed ButtonLarge" onclick="gotologin()"> Start Learning </button>
                         </div>
                     </div>
 
@@ -455,3 +455,10 @@
 </body>
 
 </html>
+
+<script>
+    function gotologin()
+    {
+        window.location.href = "login";
+    }
+</script>
