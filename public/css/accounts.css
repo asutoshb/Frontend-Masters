@@ -1,3 +1,232 @@
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 15%;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+body {
+  /* background-color: blueviolet; */
+  background-color: #222;
+  font-family: Open Sans, sans-serif;
+  /* font-size: 16px; */
+  font-size: 1.6rem;
+  line-height: 1.5;
+  /* width: 100%; */
+}
+
+.mainDiv {
+  padding: 1rem 0rem 0rem 5rem;
+  /* display: none; */
+}
+
+.myAccountHeaderDiv {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* width: 100%; */
+  width: 120rem;
+  /* background-color: mediumblue; */
+}
+
+.myAccountHeaderDiv h1 {
+  margin: 0;
+  padding: 4rem 0rem 2rem;
+  color: white;
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.myAccountContainer {
+  margin-bottom: 40px;
+  /* width: 100%; */
+  width: 120rem;
+  /* background-color: red; */
+  /* background-color: #111; */
+}
+.no-link a {
+  text-decoration: none;
+
+  color: #dd625e;
+}
+
+.myAccountLeftMainDiv {
+  margin-bottom: 2rem;
+  width: 20rem;
+}
+
+.myAccountLeftMainDiv a {
+  background: #333;
+  display: block;
+  padding: 1rem 2rem;
+  /* height: 3.5rem; */
+}
+
+.active a {
+  background-color: #111;
+  /* background-color: red; */
+}
+.active a:hover {
+  color: white !important;
+}
+
+.float-left {
+  float: left;
+}
+
+.myAccountRightContainer {
+  width: 80%;
+  height: auto;
+  /* clear: both; */
+  /* clear: right; */
+  background-color: #111;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.myAccountRight {
+  margin-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.myAccountRight h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+.myAccountRight input {
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+.myAccountRight button {
+  /* background-color: rgb(192, 45, 40); */
+  background-color: #c02d28;
+  width: 12.5rem;
+  height: 6rem;
+  margin-top: 3rem;
+  border-radius: 5rem;
+  border: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.myAccountRight button:hover {
+  background-color: rgb(212, 53, 48) !important;
+}
+
+.midinput {
+  /* background-color: red; */
+  width: 88rem;
+  margin-top: 3rem;
+}
+
+.w45 {
+  width: 45%;
+}
+.w41-in input {
+  width: 41rem;
+  /* background-color: royalblue; */
+}
+.w100-in input {
+  width: 87rem;
+}
+.accountChangePassword {
+  margin-top: 5rem;
+}
+.accountChangePassword input {
+  width: 87rem;
+  margin-bottom: 2rem;
+}
+
+/* ========================Invoices=============================== */
+
+.invoiceCheckDiv label {
+  display: inline-block;
+}
+#invoiceCheck {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+#invoiceContainer {
+  margin-top: 2rem;
+  display: none;
+
+  /* background-color: red; */
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-1-5 {
+  margin-bottom: 1.5rem;
+}
+
+/* =========accounts Workhop========================= */
+.workshopsParaDiv {
+  border: 0.1rem solid gray;
+  border-radius: 0.5rem;
+  /* background-color: tomato; */
+  width: 87rem;
+  height: 4rem;
+  padding: 0.5rem 0rem 2rem 1.5rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.workshopsParaDiv a {
+  text-decoration: underline;
+}
+
+/* ================Accounts Subscription========================= */
+#subscriptionPara p {
+  margin-top: 3rem;
+  /* background-color: yellowgreen; */
+}
+
+#paymentMethod {
+  width: 41rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  border: transparent;
+}
+#paymentMethod:focus {
+  border: transparent;
+  /* box-shadow: 0 0 5px rgb(203, 238, 1); */
+  box-shadow: transparent;
+  border-image-outset: 100px;
+}
+
 *,
 :after,
 :before {
@@ -180,7 +409,7 @@ nav ul {
 
 .polygon {
   pointer-events: none;
-  background-color: #232222;
+  background-color: #000000;
 }
 
 @font-face {
@@ -952,286 +1181,3 @@ body {
     display: block;
   }
 }
-/*------------------------------------------------------------------------------------------------------*/
-
-#container1 {
-  width: 100%;
-  background-color: #222;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.course {
-  height: 250px;
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-}
-
-/* #left {
-  border: 1px solid black;
-} */
-#left {
-  height: 250px;
-}
-#left > img {
-  margin-left: 150px;
-  width: 60%;
-  height: 100%;
-  transition: 0.4s;
-}
-
-#right {
-  display: grid;
-  grid-template-rows: 18% 18% 38% 18%;
-  grid-gap: 2%;
-  height: 250px;
-  background-color: #222;
-  font-family: sans-serif;
-  font-weight: normal;
-}
-
-#heading_right {
-  color: rgb(207, 55, 55);
-}
-
-#heading_right :hover {
-  color: rgb(228, 154, 154);
-}
-
-#img_name_right {
-  display: grid;
-  grid-template-columns: 18% 80%;
-  margin-top: 40px;
-}
-
-#img_name_right > #image {
-  width: 70px;
-  height: 70px;
-  border-radius: 70px;
-}
-
-#image > img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 70px;
-}
-#img_name_right > #name {
-  max-height: 70px;
-  margin-left: 0px;
-  margin-top: 15px;
-}
-.grey {
-  color: rgb(122, 117, 117);
-}
-
-.white {
-  color: rgb(223, 208, 208);
-}
-
-#para_right {
-  margin-top: 60px;
-}
-
-#para_right button {
-  border-radius: 10px;
-}
-
-/*-----------container 2------------------*/
-#container2 {
-  height: 430px;
-  background-color: rgb(0, 0, 0);
-}
-
-#course1 {
-  width: 80%;
-  height: 430px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 1%;
-  margin: auto;
-  align-items: center;
-}
-
-#course1 > div {
-  height: 400px;
-}
-
-#left1 {
-  background-image: url("https://static.frontendmasters.com/assets/videos/promo/ChofLqTZmf/720.jpg");
-  background-size: 100% 100%;
-  margin-bottom: 19px;
-}
-#left1:hover {
-  cursor: pointer;
-}
-#left1 > p {
-  color: rgb(173, 168, 168);
-  margin-left: 20px;
-  font-size: 25px;
-}
-#left1 > button {
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  margin-left: 43%;
-  margin-top: 13%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFLG0DJGTbrKBna_rDByvXJc9i6i9KneGcQ&usqp=CAU");
-  background-size: 100% 100%;
-  border: transparent;
-}
-
-#left1 > button:hover {
-  cursor: pointer;
-}
-
-/* #left1 > img {
-  width: 100%;
-  height: 100%;
-} */
-
-#right1 {
-  width: 100%;
-  padding-left: 10px;
-}
-
-#right1 > button {
-  width: 80%;
-  height: 65px;
-  border: transparent;
-  border-radius: 30px;
-  background-color: rgb(216, 24, 24);
-  font-size: 20px;
-  text-align: center;
-  margin-left: 21px;
-  margin-top: 10px;
-  opacity: 0.8;
-  color: white;
-}
-
-#right1 button:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-/*------------------------container 3-----------------------*/
-
-#container3 {
-  background-color: #222;
-  margin-top: -22px;
-}
-
-#content {
-  width: 80%;
-  margin: auto;
-}
-
-#content > h1 {
-  color: white;
-  padding-top: 20px;
-}
-
-#content > h3 {
-  color: rgb(153, 142, 142);
-  padding-top: 20px;
-}
-
-#texts {
-  display: grid;
-  grid-template-columns: 17% 81%;
-  grid-gap: 2%;
-}
-
-#texts > div {
-  width: 100%;
-  height: 100px;
-}
-
-#left3 {
-  width: 100%;
-  height: 100%;
-}
-
-#left3 > img {
-  width: 100%;
-  height: 100%;
-}
-
-#right3 {
-  width: 100%;
-  height: 100%;
-}
-#right3:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-#right_top,
-#right_top1,
-#right_top2,
-#right_top3 {
-  display: flex;
-  flex-direction: columns;
-  justify-content: space-between;
-  font-size: 17px;
-  color: orangered;
-}
-
-#right_bottom > p {
-  color: rgb(153, 142, 142);
-}
-
-.cont {
-  background: #222;
-  height: 200px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.skill {
-  height: 160px;
-  width: 160px;
-  position: relative;
-  transform: rotate(-90deg);
-}
-
-.outer {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.inner1 {
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#number {
-  font-weight: 600px;
-  color: black;
-}
-
-circle {
-  fill: none;
-  stroke: rgb(228, 228, 228);
-  stroke-width: 20px;
-  stroke-dasharray: 472;
-}
-
-/* svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */

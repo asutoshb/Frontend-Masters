@@ -19,6 +19,25 @@ play.addEventListener('click',function(){
 
 })
 
+let play1 = document.getElementById('play1');
+
+play1.addEventListener('click',function(){
+
+    left1.innerHTML = null;
+
+    let iframe = document.createElement('iframe');
+
+    iframe.src = "Assets/preview.mp4";
+
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.border = "transparent";
+
+    left1.append(iframe);
+    console.log(left1);
+
+})
+
 let right3 = document.getElementById("right3");
 
 

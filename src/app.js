@@ -51,6 +51,27 @@ app.get("/content", (req, res) => {
     res.render("content");
 })
 
+app.get("/accounts", (req, res) => {
+    res.render("accounts");
+})
+
+app.get("/subscription", (req, res) => {
+    res.render("subscription");
+})
+
+app.get("/payment", (req, res) => {
+    res.render("payment");
+})
+
+app.get("/invoices", (req, res) => {
+    res.render("invoices");
+})
+
+app.get("/workshops", (req, res) => {
+    res.render("workshops");
+})
+
+
 app.post("/register", async (req, res)=> {
 
     try{
@@ -76,6 +97,7 @@ app.post("/login", async (req, res)=>{
         const email = req.body.email;
         const password = req.body.password;
        const user = await User.findOne({emailtext: email});
+       
        if(user.password == password)
        {
            res.render('courses')
@@ -89,6 +111,9 @@ app.post("/login", async (req, res)=>{
         res.status(404).send(err);
     }
 })
+
+
+
 
 app.listen(port, ()=> {
     console.log(`listening on port ${port}`);

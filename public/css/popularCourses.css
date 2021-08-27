@@ -756,7 +756,7 @@ body {
 }
 
 .header .inner {
-  background: rgb(83, 9, 13);
+  background: #3e140c;
   padding: 10px 0;
 }
 
@@ -869,7 +869,7 @@ body {
   color: rgb(255, 255, 255);
   margin: 10px 0;
   padding: 0 20px;
-  background-color: rgb(221, 27, 27);
+  background-color: #3e140c;
 }
 
 .Nav .active {
