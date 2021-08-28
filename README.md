@@ -21,6 +21,7 @@ Main Pages :books:
 - [x] Courses Page
 - [x] Track course page
 - [x] My account page     
+- [x] Payment gateway
 ---
 
 Sources :unlock:
@@ -36,6 +37,8 @@ Funtionality :boom:
 - Login page using mongodb database
 - Enrolling particular course
 - Tracking course progress using circular progress bar
+- Payment gateway
+- Course video play
 ---
 
 Steps to run website locally :sunflower:
