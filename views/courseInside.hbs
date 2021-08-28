@@ -8,7 +8,7 @@
     <title>Learn JavaScript, Front-End Web Development and Node.js with Frontend Masters Courses</title>
 </head>
 
-<body>
+<body onload="callMe()">
 
     <!---------------------------------------------->
     <div id="layout-before"></div>
@@ -144,8 +144,8 @@
                         </div>
                         <div id="right3" onclick="tracked(event)" ondblclick="untracked()">
                             <div id="right_top">
-                                <div>Introduction</div>
-                                <div>00:00:00 - 00:06:36</div>
+                                <div id="visitedPage1" onclick="visited('1')">Introduction</div>
+                                <div id="visitedPages1" onclick="visited('1')">00:00:00 - 00:06:36</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve Kinney introduces the course by providing an overview of the course, discussing
@@ -167,8 +167,8 @@
                         </div>
                         <div id="right3" onclick="tracked1()" ondblclick="untracked1()">
                             <div id="right_top1">
-                                <div>Redux API's & Compose</div>
-                                <div>00:06:37 - 00:11:50</div>
+                                <div id="visitedPage2" onclick="visited('2')">Redux API's & Compose</div>
+                                <div id="visitedPages2" onclick="visited('2')">00:06:37 - 00:11:50</div>
                             </div>
                             <div id="right_bottom" class="right_bottom">
                                 <p>Steve discusses the methods of the Redux API including applyMiddleware, compose,
@@ -187,8 +187,8 @@
                         </div>
                         <div id="right3" onclick="tracked2()" ondblclick="untracked2()">
                             <div id="right_top2">
-                                <div>Redux Stores & Reducers</div>
-                                <div>00:11:51 - 00:20:28</div>
+                                <div id="visitedPage3" onclick="visited('3')">Redux Stores & Reducers</div>
+                                <div id="visitedPages3" onclick="visited('3')">00:11:51 - 00:20:28</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates creating a simple reducer, using the createStore method, and
@@ -209,8 +209,8 @@
                         </div>
                         <div id="right3" onclick="tracked3()" ondblclick="untracked3()">
                             <div id="right_top3">
-                                <div>Redux Stores & Dispatch</div>
-                                <div>00:20:29 - 00:26:16</div>
+                                <div id="visitedPage4" onclick="visited('4')">Redux Stores & Dispatch</div>
+                                <div id="visitedPages4" onclick="visited('4')">00:20:29 - 00:26:16</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve discusses the dispatch part of createStore and demonstrates the conventions of
@@ -232,8 +232,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Action Creators</div>
-                                <div>00:26:17 - 00:30:21</div>
+                                <div id="visitedPage5" onclick="visited('5')">Action Creators</div>
+                                <div id="visitedPages5" onclick="visited('5')">00:26:17 - 00:30:21</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates creating an action creator function which will set a constant
@@ -254,8 +254,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Setting initalState</div>
-                                <div>00:30:22 - 00:33:48</div>
+                                <div id="visitedPage6" onclick="visited('6')">Setting initalState</div>
+                                <div id="visitedPages6" onclick="visited('6')">00:30:22 - 00:33:48</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates binding the initalState to the reducer to allow an immediate
@@ -275,8 +275,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Some Rules for Reducers</div>
-                                <div>00:33:49 - 00:38:23</div>
+                                <div id="visitedPage7" onclick="visited('7')">Some Rules for Reducers</div>
+                                <div id="visitedPages7" onclick="visited('7')">00:33:49 - 00:38:23</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve discusses some rules to keep in mind when creating reducers in Redux including
@@ -298,8 +298,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Subscribe & Binding Action Creators</div>
-                                <div>00:38:24 - 00:46:48</div>
+                                <div id="visitedPage8" onclick="visited('8')">Subscribe & Binding Action Creators</div>
+                                <div id="visitedPages8" onclick="visited('8')">00:38:24 - 00:46:48</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates how to use store.subscribe to store changes to the state and bind
@@ -320,8 +320,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Combine Reducers</div>
-                                <div>00:46:49 - 00:59:16</div>
+                                <div id="visitedPage9" onclick="visited('9')">Combine Reducers</div>
+                                <div id="visitedPages9" onclick="visited('9')">00:46:49 - 00:59:16</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates refactoring the application into multiple smaller reducers and
@@ -343,8 +343,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Enhancers</div>
-                                <div>00:59:17 - 01:07:42</div>
+                                <div id="visitedPages10" onclick="visited('10')">Enhancers</div>
+                                <div id="visitedPage10" onclick="visited('10')">00:59:17 - 01:07:42</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Steve demonstrates adding an enhancer to createStore which will allow the creation of
@@ -365,8 +365,8 @@
                         </div>
                         <div id="right3">
                             <div id="right_top">
-                                <div>Enhancers Exercise</div>
-                                <div>01:07:43 - 01:08:20</div>
+                                <div id="visitedPage11" onclick="visited('11')">Enhancers Exercise</div>
+                                <div id="visitedPage11" onclick="visited('11')">01:07:43 - 01:08:20</div>
                             </div>
                             <div id="right_bottom">
                                 <p>Students are instructed to create an enhancer that console logs the state before and
