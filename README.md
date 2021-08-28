@@ -1,7 +1,7 @@
 #Frontend Masters Website Clone
 ---
 
-This clone is made with pure HTML, CSS , Javascript and Mongodb
+This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs
 ---
 
 Team Members 
