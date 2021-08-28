@@ -1,4 +1,4 @@
-#Frontend Masters Website Clone
+#Frontend Masters Website Clone :technologist:
 ---
 
 This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs
