@@ -12,3 +12,8 @@ Team Members
 
 Main Pages
 - [x] Landing Page 
+- [x] Register page
+- [x] Login Page
+- [x] Courses Page
+- [x] Track course page
+- [x] My account page     
