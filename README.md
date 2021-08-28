@@ -43,4 +43,10 @@ Steps to run website locally :sunflower:
 - Copy-Paste the command "git clone https://github.com/asutoshb/Frontend-Masters.git" on the terminal and run it
 - Install all the dependencies required by typing "npm install" in the terminal
 - use "localhost:3000" on your browser to run the website locally
+---
+
+Screenshots of pages :framed_picture:
+- landing page
+![Landing page](https://user-images.githubusercontent.com/86410005/131209097-83a3584d-f487-4c6c-82bb-0bda631a6744.png)
+
 
