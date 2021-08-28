@@ -31,3 +31,9 @@ Funtionality :boom:
 - Tracking course progress using circular progress bar
 ---
 
+Steps to run website locally :sunflower:
+- Open GitBash in the location you want to clone and store the files
+- Copy-Paste the command "git clone https://github.com/asutoshb/Frontend-Masters.git" on the terminal and run it
+- Install all the dependencies required by typing "npm install" in the terminal
+- use "localhost:3000" on your browser to run the website locally
+
