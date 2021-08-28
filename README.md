@@ -5,7 +5,7 @@ This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs
 ---
 
 Team Members 
-- Asutosh Behera
+- [Asutosh Behera](https://github.com/asutoshb)
 - Md Ali Shehenshah
 - Niket Nayan
 ---
