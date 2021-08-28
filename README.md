@@ -23,6 +23,13 @@ Main Pages :books:
 - [x] My account page     
 ---
 
+Sources
+- Images: Frontend-masters
+- Fonts: Google Fonts,sans-serif family
+- Icons:Awesome Icon
+- Live demo:Frontend-Masters
+---
+
 Funtionality :boom:
 - Responsive landing page
 - Signup page using mongodb database
