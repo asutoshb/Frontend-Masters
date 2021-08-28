@@ -4,6 +4,10 @@
 This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs :innocent:
 ---
 
+About :information_source:
+---
+This website offers all the frontend courses available to its users.
+
 Team Members :handshake:
 - [Asutosh Behera](https://github.com/asutoshb)
 - [Md Ali Shehenshah](https://github.com/hello-snsa)
@@ -17,3 +21,13 @@ Main Pages :books:
 - [x] Courses Page
 - [x] Track course page
 - [x] My account page     
+---
+
+Funtionality :boom:
+- Responsive landing page
+- Signup page using mongodb database
+- Login page using mongodb database
+- Enrolling particular course
+- Tracking course progress using circular progress bar
+---
+
