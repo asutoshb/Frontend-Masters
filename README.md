@@ -49,4 +49,14 @@ Screenshots of pages :framed_picture:
 - landing page
 ![Landing page](https://user-images.githubusercontent.com/86410005/131209097-83a3584d-f487-4c6c-82bb-0bda631a6744.png)
 
+- Register page
+![Register page](https://user-images.githubusercontent.com/86410005/131209121-a0da56d8-e668-4db2-8d74-3474682832dc.png)
+
+- Login page
+![Login Page](https://user-images.githubusercontent.com/86410005/131209127-5a23ffab-4b2e-4401-acd3-7fb1f03c6886.png)
+
+- course page
+![Course page](https://user-images.githubusercontent.com/86410005/131209138-be3f2f35-496e-415c-bc69-04ce9cb83abc.png)
+
+
 
