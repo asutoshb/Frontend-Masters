@@ -1,16 +1,16 @@
 #Frontend Masters Website Clone :technologist:
 ---
 
-This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs
+This clone is made with pure HTML, CSS , Javascript, Mongodb, express and nodejs :innocent:
 ---
 
-Team Members 
+Team Members :handshake:
 - [Asutosh Behera](https://github.com/asutoshb)
 - [Md Ali Shehenshah](https://github.com/hello-snsa)
 - [Niket Nayan](https://github.com/Niket1-1)
 ---
 
-Main Pages
+Main Pages :books:
 - [x] Landing Page 
 - [x] Register page
 - [x] Login Page
