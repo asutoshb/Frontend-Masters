@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 15%;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+body {
+  /* background-color: blueviolet; */
+  background-color: #222;
+  font-family: Open Sans, sans-serif;
+  /* font-size: 16px; */
+  font-size: 1.6rem;
+  line-height: 1.5;
+  /* width: 100%; */
+}
+
+.bigRedbutton button {
+  background-color: #c02d28;
+  width: 12.5rem;
+  height: 6rem;
+  margin-top: 3rem;
+  border-radius: 5rem;
+  border: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.bigRedbutton button:hover {
+  background-color: rgb(212, 53, 48);
+}
