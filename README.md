@@ -8,3 +8,7 @@ Team Members
 - Asutosh Behera
 - Md Ali Shehenshah
 - Niket Nayan
+---
+
+Main Pages
+- [x] Landing Page 
