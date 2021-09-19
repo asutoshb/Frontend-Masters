@@ -7,7 +7,6 @@ const User = require('./models/registers');
 require('./db/conn')
 
 const port = process.env.PORT || 3000;
-
 const static_path = path.join(__dirname, '../public');
 
 
@@ -20,11 +19,6 @@ app.set("view engine", "hbs");
 app.get('/', (req, res) => {
     res.render("index");
 })
-
-// app.get('/', (req, res) => {
-//     res.send("welcome");
-// })
-
 
 app.get("/register", (req, res) => {
     res.render("register");
@@ -77,10 +71,10 @@ app.post("/register", async (req, res)=> {
     try{
         const data = new User({
               firstname : req.body.firstname,
-        secondname : req.body.secondname,
-        emailtext : req.body.emailtext,
-        password : req.body.password,
-        confirmpassword : req.body.confirmpassword,
+              secondname : req.body.secondname,
+              emailtext : req.body.emailtext,
+              password : req.body.password,
+              confirmpassword : req.body.confirmpassword,
         })
        const registered = await data.save();
        res.render("index");
