@@ -202,7 +202,6 @@ function changePercentage() {
     number.innerHTML = ((c / 11) * 100).toFixed(0) + "%";
 }
 
-// 
 
 function callMe() {
     checkVisited();
@@ -222,12 +221,7 @@ function visited(a) {
 
     let temp = localStorage.setItem(`color${a}`, JSON.stringify('1'));
 
-
-
-
-
 }
-
 
 function checkVisited() {
 
