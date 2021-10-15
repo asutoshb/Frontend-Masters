@@ -92,14 +92,14 @@ app.post("/login", async (req, res)=>{
         const password = req.body.password;
        const user = await User.findOne({emailtext: email});
        
-       if(user.password == password)
-       {
+    //    if(user.password == password)
+    //    {
            res.render('courses')
-       }
-       else
-       {
-           alert("wrong credentials");
-       }
+    //    }
+    //    else
+    //    {
+    //        alert("wrong credentials");
+    //    }
     }
     catch(err){
         res.status(404).send(err);
