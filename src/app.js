@@ -112,3 +112,5 @@ app.post("/login", async (req, res)=>{
 app.listen(port, ()=> {
     console.log(`listening on port ${port}`);
 })
+
+//"server": "nodemon src/app.js -e js,hbs"
